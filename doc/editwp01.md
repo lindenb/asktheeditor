@@ -30,3 +30,22 @@ MMIHS by identifying causative ACTG2 mutations.
 
 http://en.wikipedia.org/wiki/Berdon_syndrome
 http://en.wikipedia.org/wiki/ACTG2
+
+http://en.wikipedia.org/wiki/Template:Cite_pmid
+
+
+Simplest form which will put a number at the citation location and place the citation in the reference section:
+
+<ref>{{Cite pmid|PMID}}</ref>[1]
+
+If another Wikipedia article already uses that reference (via the Cite pmid template), it will automatically use the existing information to present the full citation details of the reference in the article. If not, a bot will retrieve the information from PubMed and create the citation for you within a few minutes.
+
+Use like this:
+
+<ref name="Example2006">{{Cite pmid|12122621}}</ref>[2]
+
+To refer to the same reference elsewhere in the same article, use:
+
+<ref name="Example2006" />[2]
+
+
